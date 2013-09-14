@@ -1,0 +1,77 @@
+
+.quid-grid {
+    display:block;
+    position: relative;
+    overflow: hidden;
+    margin:0;
+}
+
+.quid-thead {
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.quid-thead-row {
+    display: block;
+    position: relative;
+    background: inherit;
+}
+
+.quid-thead-cell {
+    display: inline-block;
+    width: 100px;
+    white-space: normal;
+    overflow:visible !important;
+    margin-left: 0;
+    padding: 4px;
+}
+
+.quid-tbody {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.quid-tbody-row {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    background: inherit;
+}
+
+.quid-tbody-row.ui-state-highlight, .quid-tbody-row.ui-state-default  {
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+    font-weight: normal !important;
+}
+
+.quid-tbody-cell {
+    display: inline-block;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 0;
+    vertical-align: top;
+    padding: 4px;
+}
+
+.quid-locked-cell {
+    position: relative;
+    background: inherit;
+    /*z-index: 10;*/
+}
+
+.quid-tbody-cell.quid-locked-cell, .quid-thead-cell.quid-locked-cell {
+    border: 2px solid #aaa;
+    border-width:0 2px 0 0 !important;
+}
+
+.quid-tbody-row.ui-state-active, .quid-tbody-row.ui-state-hover  {
+    border-width: 0px !important;
+}

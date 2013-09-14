@@ -1,0 +1,102 @@
+.quid-bar {
+    
+}
+
+.quid-bar-container {
+    display: inline-block;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.quid-bar-group {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.quid-bar-group-last {
+    float: right;
+    margin-right: 0px;
+    margin-left: 7px;
+}
+
+.quid-bar .quid-button-item, .quid-bar .quid-input-item, .quid-bar .quid-text-item {
+    float:left;
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: -1px;
+    position: relative;
+    overflow: visible;
+    display: block;
+}
+
+.quid-bar .quid-input-item {
+    margin-left: 1px;
+}
+
+.quid-bar .quid-button {
+    border-top-width: 0px !important;
+    border-bottom-width: 0px !important;
+    margin-right: -2px;
+    display:block;
+}
+
+.quid-bar .quid-item-joinleft {
+    margin-left: -5px;
+}
+
+.quid-item-joinleft .quid-button {
+    border-left-width: 0px;
+}
+
+.quid-bar .quid-input-item input {
+    margin:1px;
+    height:1.4em
+}
+
+.quid-bar .quid-text-item {
+    padding: 0.4em 1em;
+    line-height: 1.4em;
+}
+
+.quid-bar-button {
+    white-space: nowrap;
+}
+
+.quid-menu {
+    position: absolute;
+    left: 0px;
+    margin-top: -1px;
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+    list-style-type: none;
+    padding: 4px 4px 6px 4px;
+}
+
+.quid-menu-popup {
+    margin-top: 1px;
+    -moz-box-shadow: 0px -1px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px -1px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px -1px 2px rgba(0,0,0,0.5);
+    padding: 6px 4px 4px 4px;
+}
+
+.quid-menu li {
+    margin-bottom: -1px;
+    position: relative;
+}
+
+.quid-menu li .ui-button {
+    text-align: left;
+    margin-right: 0px;
+    white-space: nowrap;
+    display:block;
+    font-size: 0.8em;
+}
+
+.quid-menu-separator {
+    height: 5px;
+    display: block;
+}
